@@ -1,0 +1,2 @@
+# DB 생성
+CREATE DATABASE site7;
