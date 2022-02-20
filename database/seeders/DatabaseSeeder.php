@@ -1,9 +1,7 @@
 <?php
-
+// database/seeders/DatabaseSeeder.php 
 namespace Database\Seeders;
 
-use Admin;
-use App\Models\User;
 use Illuminate\Database\Seeder;
 
 class DatabaseSeeder extends Seeder
@@ -17,7 +15,8 @@ class DatabaseSeeder extends Seeder
     {
         $this->call([
             AdminSeeder::class,
-            UserSeeder::class
+            UserSeeder::class,
+            ArticleSeeder::class,
         ]);
     }
 }
